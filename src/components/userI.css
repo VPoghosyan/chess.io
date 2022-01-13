@@ -1,0 +1,144 @@
+.profileCard {
+      
+    
+    width: 400px;
+    min-height: 500px;
+    padding: 30px;
+   
+    
+    
+    box-sizing: border-box;
+    box-shadow: 0px 15px 105px rgba(12, 182, 125, 0.6);
+    border-radius: 10px;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+  }
+
+  .profileCard2 {
+    background-color: black;
+    opacity: 0.4;
+  }
+
+
+
+  .wrapperCont {
+    width: 100%;
+    min-height: 100%;
+    display:flex
+  }
+
+  .usersList {
+      height:100%;
+      
+      transition: all 1s;
+      box-shadow: 0px 255px 95px rgba(5, 5, 5, 0.6);
+
+  }
+
+  .cardWrapper {
+    min-height: 100%;
+    
+    overflow-y: visible;
+    flex: 70%;
+  
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .profilePicCont {
+      width: 100%;
+      
+      display: flex;
+     
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .userInfoCont {
+    width: 100%;
+    flex: 60%;
+    display: flex;
+    border-radius: 10px/20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.2px;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  .imageFrame{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border-color: black;
+        border-style: solid;
+    border-width: 1.2px;
+    margin-bottom: 15px;
+    position: relative;
+    transition: all 0.5s;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+  }
+
+
+  .imageOverlay{
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      border-radius: 50%;
+        opacity: 0;
+        transition: all 0.5s;
+        display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    z-index: 5;
+  }
+  .imageOverlay:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .blurryOverlay {
+      width:90%;
+      height: 100%;
+      
+      
+      
+      backdrop-filter: blur(2px);
+      position: absolute;
+      
+      left: 5%;
+      
+      
+  }
+
+  .blurryOverlay1 {
+    backdrop-filter: blur(0.7px);
+    background-color: salmon;
+  }
+  .blurryOverlay2 {
+      
+      background-color: aqua;
+  }

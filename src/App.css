@@ -1,0 +1,43 @@
+
+.mainCont{
+    
+  font-family: sans-serif;
+  
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-y: visible;
+   
+  
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.pages{
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-y: visible;
+}
+
+.navBar {
+  
+  box-shadow: 10px 15px 15px rgba(7, 7, 7, 0.815);
+  position: absolute;
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+
+.generalWrapper{
+  background: radial-gradient(50% 50% at top center,rgba(0, 0, 0, 0.66),#262626);
+  min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+

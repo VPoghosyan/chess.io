@@ -1,0 +1,25 @@
+.otherPWrapper {
+    width:300px;
+    height: 100px;
+    display: flex;
+    
+    align-items: center;
+}
+
+
+.otherPPic {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: green;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+

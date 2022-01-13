@@ -1,0 +1,162 @@
+.chessStuffCont {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.btnsPannel {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid 55efc4;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 10px 20px;
+    padding: 1em 1em;
+    text-decoration: none;
+    text-align: center;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+button:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 40px 40px #03e9f4 inset;
+}
+
+
+.turnDiv {
+    width: 100px;
+    height: 100px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: all 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+.transcriptDiv {
+    border-radius: 5px;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    margin-left: 40px;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    
+   
+}
+
+.chatBox{
+    border-radius: 5px;
+    width: 350px;
+    height: 90px;
+    background-color: white;
+    margin-left: 40px;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+}
+
+.chatBoxText {
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.chatPlayerSpan {
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: 4px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.toolTip{
+    z-index: 10;
+}
+
+.colorPickerCont{
+    color:white;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.colorButton{
+    
+  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+  cursor: pointer;
+  height: 30px;
+  
+  width: 30px;
+}
+
+
+
+.transcriptDiv:hover {
+ overflow-y: overlay;
+ scroll-behavior: smooth;
+ 
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #a5a2a2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+

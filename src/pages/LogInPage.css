@@ -1,0 +1,52 @@
+
+.knights {
+    position: absolute;
+    top: -91%;
+    height: 315px;
+    width: 194px;
+    transition: all 1s;
+    
+  
+  }
+
+  .knightsCombo{
+    position: absolute;
+    top: -138%;
+    left:-17.4%;
+    transform: scale(0.45);
+    transition: all 1s;
+  }
+
+
+  
+  .spin {
+    
+    animation: spin 3.5s linear 0s infinite normal;
+    
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(180deg); }
+  }
+  
+  .fu {
+    background-color: red;
+    
+  }
+
+  
+.mainCont{
+    
+    font-family: sans-serif;
+    
+      min-height: 100vh;
+      min-width: 100vw;
+      overflow-y: visible;
+      
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+  }
