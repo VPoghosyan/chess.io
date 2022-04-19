@@ -7,7 +7,7 @@ A live web chess game between two players.  When a user makes a move, it will se
 
 GitHub Link: https://github.com/Millsy4/Chess.io
 
-Deployed App: Currently localhost, will be deployed soon
+Deployed App: https://frbimagehosting.web.app/
 
 ## Table of Contents
 * [Installation](#Installation)
